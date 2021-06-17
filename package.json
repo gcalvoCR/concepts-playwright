@@ -1,0 +1,19 @@
+{
+  "name": "concepts-playwight",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "headed-test": "npx playwright test --headed npx playwright test",
+    "all-browsers": "npx playwright test  --headed --browser=all"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@playwright/test": "^1.12.1",
+    "playwright": "^1.12.1"
+  }
+}
